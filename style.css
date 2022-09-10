@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+/* header start */
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.header_right{
+    display: flex;
+    width: 45%;
+}
+.header_right p {
+    width: 27%;
+    height: 80px;
+    font-family: 'PT Sans';
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_right p:hover{
+    background-color: #1f1f1f;
+}
+/* header end */
+/* jumbotron start */
+.jumbotron{
+    height: 80vh;
+    background: url(./images/Rectangle\ 3.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container >p{
+    text-align: center;
+    width: 30%;
+    margin-top: 40px;
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+.center_jumbotron{
+    width: 320px;
+    height: 320px;
+    border: 2px solid white;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center_jumbo_logo >p{
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "PT sans";
+}
+.center_jumbo_logo > img{
+    width: 186px;
+}
+/* jumbotron end */
